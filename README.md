@@ -1,10 +1,10 @@
 # Prime-Gap Dynamics: Zeta Phase Transistor Test Harness
 
-A quantum control research platform for probing the intersection of analytic number theory and dynamical stability. The project implements a finite-dimensional Hamiltonian system driven by prime frequencies, gap-modulated hopping, and zeta-zero modulation, using a resource-bounded simulation protocol suitable for falsifiable numerical experiments.[web:185][web:186]
+A quantum control research platform for probing the intersection of analytic number theory and dynamical stability. The project implements a finite-dimensional Hamiltonian system driven by prime frequencies, gap-modulated hopping, and zeta-zero modulation, using a resource-bounded simulation protocol suitable for falsifiable numerical experiments.
 
 ## Project overview
 
-The Zeta Phase Transistor treats mathematical structure as an active control law rather than as passive description. In this formulation, primes act as phase carriers, prime gaps act as coupling structure, and zeta-zero frequencies drive the time-dependent envelope of the Hamiltonian.[web:183][web:185]
+The Zeta Phase Transistor treats mathematical structure as an active control law rather than as passive description. In this formulation, primes act as phase carriers, prime gaps act as coupling structure, and zeta-zero frequencies drive the time-dependent envelope of the Hamiltonian.
 
 The core working model is
 
@@ -12,7 +12,7 @@ The core working model is
 H(t) = H_{\text{prime}} + \lambda(t) H_{\text{gap}},
 \]
 
-where the diagonal term encodes inverse-prime weighting and the hopping term encodes log-normalized adjacent prime gaps, producing a stable finite-dimensional physics engine for numerical study.[web:184][web:186]
+where the diagonal term encodes inverse-prime weighting and the hopping term encodes log-normalized adjacent prime gaps, producing a stable finite-dimensional physics engine for numerical study.
 
 ### Core hypotheses
 
@@ -101,4 +101,4 @@ Prime-Gap-Dynamics/
 
 ## Positioning
 
-This repository is best understood as a research test harness rather than a proof engine. Its purpose is to make number-theoretic dynamical claims operational, reproducible, and statistically testable under explicit finite-resource assumptions.[web:183][web:185]
+This repository is best understood as a research test harness rather than a proof engine. Its purpose is to make number-theoretic dynamical claims operational, reproducible, and statistically testable under explicit finite-resource assumptions.
